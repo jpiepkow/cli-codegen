@@ -1,6 +1,6 @@
 {
   "name": "cli-codegen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "using the swagger doc's generate a client library(codengen cli)",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "repository": {
     "type":"git",
     "url":"https://github.com/jpiepkow/gli-codegen.git"
-  }
+  },
   "dependencies": {
     "async": "^1.5.0",
     "mkdir": "0.0.2",
