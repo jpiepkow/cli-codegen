@@ -1,0 +1,27 @@
+{
+  "name": "cli-codegen",
+  "version": "1.0.1",
+  "description": "using the swagger doc's generate a client library(codengen cli)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jordan piepkow",
+  "license": "ISC",
+  "bin": {
+    "cli-codegen": "./index.js"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/jpiepkow/gli-codegen.git"
+  }
+  "dependencies": {
+    "async": "^1.5.0",
+    "mkdir": "0.0.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.65.0",
+    "swagger-client": "^2.1.6",
+    "swagger-js-codegen": "^1.1.5",
+    "yargs": "^3.29.0"
+  }
+}
